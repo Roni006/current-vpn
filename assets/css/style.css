@@ -20,6 +20,7 @@ version: 1.0.0
     --white-color: #fff;
     --black-color: #000;
     --header-shadow:  rgba(0, 0, 0, 0.1) 0px 0px 4px;
+    --know-more-btn-color: #092857;
 
 }
 
@@ -117,6 +118,54 @@ h3.h4.h5.h6 {
     display: none;
 }
 /*HEADER SECTION ENS */
+
+/*BLOG SECTION START */
+.blog-section{
+    padding: 70px 0;
+}
+.blog-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+.blog-top{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.blog-text p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.blog-title h2{
+    font-weight: 700;
+    color: var(--menus-hover-color);
+    padding-top: 30px;
+    
+}
+.blog-para p {
+    width: 530px;
+    font-size: 22px;
+    padding: 20px 0;
+}
+.blog-btn{
+    display: flex;
+    align-items: center; 
+}
+.blog-btn a{
+    text-decoration: none;
+    color: var(--know-more-btn-color);
+    font-size: 22px;
+    font-weight: 500;
+}
+.row2{ 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding: 100px 0;
+}
+/*BLOG SECTION ENS */
 
 /* SECTION START */
 /* SECTION ENS */
