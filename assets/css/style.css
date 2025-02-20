@@ -21,6 +21,7 @@ version: 1.0.0
     --black-color: #000;
     --header-shadow:  rgba(0, 0, 0, 0.1) 0px 0px 4px;
     --know-more-btn-color: #092857;
+    --hero-download-bcg: #0A7AF9;
 
 }
 
@@ -166,6 +167,59 @@ h3.h4.h5.h6 {
     padding: 100px 0;
 }
 /*BLOG SECTION ENS */
+
+/*HERO SECTION START */
+.hero-section{
+    padding: 70px 0;
+    overflow: hidden;
+}
+/* .hero-left{
+    width: 50%;
+} */
+.hero-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.shapes {
+    position: absolute;
+    right: 275px;
+    top: 10px;
+}
+.hero-title h2{
+    padding: 45px 0 15px 0;
+}
+.hero-para p{
+    font-size: 22px;
+    width: 488px;
+    line-height: 35px;
+    color: var(--menus-color);
+}
+
+.hero-btns{
+    background-color: var(--menus-hover-color);
+    padding: 45px 15px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.hero-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hero-btns .donwload a{
+    background-color: var(--hero-download-bcg);
+    text-decoration: none;
+    color: var(--white-color);
+    padding: 35px 45px;
+    border-radius: 50px;
+}
+.hero-btns a{
+    font-size: 20px;
+}
+/*HERO SECTION ENS */
 
 /* SECTION START */
 /* SECTION ENS */
