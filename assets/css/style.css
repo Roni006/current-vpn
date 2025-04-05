@@ -60,12 +60,22 @@ h6 {
     font-size: 18px;
 }
 
-h1,
-h2,
-h3.h4.h5.h6 {
+h1,h2,h3,h4,h5,h6 {
     margin: 0;
     padding: 0;
+    color: var(--menus-hover-color);
 }
+
+.mt{
+    margin-top: 15px;
+}
+.mb{
+    margin-bottom: 15px;
+}
+.mboth{
+    margin: 15px 0;
+}
+
 
 /*HEADER SECTION START */
 .header-row {
@@ -220,6 +230,63 @@ h3.h4.h5.h6 {
     font-size: 20px;
 }
 /*HERO SECTION ENS */
+
+
+
+/*TESTIMONIAL SECTION START */
+.testimonial-section{
+    padding: 70px 0;
+}
+.testi-row{
+    display: flex;
+}
+.testi-title h2{
+    margin-bottom: 25px;
+}
+.testi-para p{
+    font-size: 22px;
+    margin-bottom: 25px;
+    width: 430px;
+    line-height: 35px;
+}
+.testi-right img{
+    width: 500px;
+}
+/*TESTIMONIAL SECTION ENS */
+
+
+
+/*FAQ SECTION START */
+.faq-section{
+    padding: 70px 0;
+}
+.faq-content .blog-top{  
+    align-items: center;
+    justify-content: center;
+}
+.faq-content .faq{
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+.faq .accordion-item button{
+    font-size: 22px;
+    font-weight: 500; 
+    border-radius: 50px;
+    color: var(--menus-hover-color);
+}
+.faq .accordion-item{  
+    box-shadow: 0px 8px 120px rgba(105, 105, 112, 0.125);
+    border-radius: 15px;
+}
+.faq .accordion-item p{
+    font-size: 18px;
+}
+.extra{
+    margin: 15px 0;
+}
+/*FAQ SECTION ENS */
+
 
 /* SECTION START */
 /* SECTION ENS */

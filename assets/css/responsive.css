@@ -7,6 +7,7 @@
     .blog-right {
         margin-top: 35px;
     }
+
     .shapes {
         position: absolute;
         right: 215px;
@@ -14,18 +15,20 @@
     }
 }
 
-@media (max-width: 930px){
-    .hero-row{ 
+@media (max-width: 930px) {
+    .hero-row {
         flex-wrap: wrap;
     }
-    .hero-left{
+
+    .hero-left {
         margin-bottom: 50px;
     }
+
     .shapes {
         position: absolute;
         left: 65px;
         top: 180px;
-    } 
+    }
 }
 
 @media (max-width: 850px) {
@@ -39,15 +42,17 @@
 }
 
 @media (max-width: 675px) {
-    .hero-right img{
+    .hero-right img {
         width: 100%;
     }
+
     .shapes {
         position: absolute;
         left: -10px;
         top: 249px;
     }
 }
+
 @media (max-width: 530px) {
     .btns {
         box-shadow: 0px 24px 140px -12px #CBCED1;
@@ -62,7 +67,8 @@
         width: 100%;
         text-align: justify;
     }
-    .hero-para p{
+
+    .hero-para p {
         width: 100%;
         text-align: justify;
     }
@@ -76,31 +82,48 @@
     .blog-title h2 {
         font-size: 30px;
     }
-    .blog-para p{
+
+    .blog-para p {
         font-size: 18px;
     }
-    .blog-btn a{
+
+    .blog-btn a {
         font-size: 18px;
     }
-    .hero-para p{
+
+    .hero-para p {
         font-size: 18px;
     }
-    .shapes {  
+
+    .shapes {
         left: -10px;
         top: 249px;
     }
+
 }
 
 @media (max-width: 375px) {
     .extra h2 {
         font-size: 30px;
     }
+
     .hero-title h2 {
         font-size: 35px;
     }
+
     .shapes {
         position: absolute;
         left: -10px;
         top: 249px;
+    }
+
+    .faq-content .faq h2 {
+        font-size: 30px;
+    }
+    .faq .accordion-item button{
+        font-size: 18px;
+    }
+    .accordion-body{
+        font-size: 16px;
     }
 }
